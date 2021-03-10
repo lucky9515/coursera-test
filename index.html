@@ -10,7 +10,18 @@
         <div ng-controller='firstController'>
 
             <h>{{firstName}}</h>
+<br>
+
+           
+            <div>
+                <input type="text" ng-model="friendName" ng-keyup="displayNumeric();">
+                <br>
+                Value in text box is : {{friendName}}
+
+                Count is : {{countValue}}
+            </div>
 
         </div>
+       
     </div>
 </html>
