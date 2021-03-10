@@ -1,0 +1,31 @@
+<html ng-app="LunchCheck">
+    <head>
+        <script src="angular.min.js"> </script>
+        <script src="app.js"></script>
+    </head>
+    <div>
+        <h1>
+            Hi this is My First Angular Project  
+        </h1>
+        <div ng-controller='LunchCheckController'>
+
+        <br>
+
+           
+            <div>
+                <input type="text" ng-model="items" >
+                <br>
+                <button ng-click="changeOutput()" "> Check If Too Much</button>
+               
+
+                {{outputvalue}}
+               
+
+
+                
+            </div>
+
+        </div>
+       
+    </div>
+</html>
