@@ -1,7 +1,16 @@
-<html>
+<html ng-app="MyFirstApp">
+    <head>
+        <script src="angular.min.js"> </script>
+        <script src="app.js"></script>
+    </head>
     <div>
         <h1>
-            Hi this is My First Angular Project yes 
+            Hi this is My First Angular Project  
         </h1>
+        <div ng-controller='firstController'>
+
+            <h>{{firstName}}</h>
+
+        </div>
     </div>
 </html>
